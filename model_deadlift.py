@@ -1,7 +1,7 @@
 import streamlit as st
 import cv2
 import mediapipe as mp
-import pickle
+import joblib
 import pandas as pd
 from landmarks import landmarks
 import numpy as np
@@ -11,9 +11,9 @@ mp_pose = mp.solutions.pose
 pose = mp_pose.Pose(min_tracking_confidence=0.6, min_detection_confidence=0.6)
 
 with open('deadlift.pkl', 'rb') as f:
-    model = pickle.load(f)
+    model = joblib.load(f)
 with open('lean.pkl', 'rb') as b:
-    model1 = pickle.load(b)
+    model1 = joblib.load(b)
 
 class SessionState:
     def __init__(self):
