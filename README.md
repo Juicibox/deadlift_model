@@ -1,2 +1,2 @@
 # Deadlift
-computer vision model to detect deadlift
+Computer vision model to detect deadlift
