@@ -10,10 +10,6 @@ mp_drawing = mp.solutions.drawing_utils
 mp_pose = mp.solutions.pose
 pose = mp_pose.Pose(min_tracking_confidence=0.6, min_detection_confidence=0.6)
 
-with open('deadlift.pkl', 'rb') as f:
-    model = joblib.load(f)
-with open('lean.pkl', 'rb') as b:
-    model1 = joblib.load(b)
 
 class SessionState:
     def __init__(self):
