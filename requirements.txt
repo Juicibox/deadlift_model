@@ -1,1 +1,7 @@
 pandas
+scikit-learn==1.2.2
+streamlit==1.23.1
+numpy
+pickle
+cv2
+mediapipe
