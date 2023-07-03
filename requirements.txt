@@ -1,7 +1,7 @@
 joblib==1.2.0
 mediapipe==0.10.1
 numpy==1.25.0
-opencv-python == 4.8.0.74
+opencv-python-headless 
 pandas==2.0.2
 scikit-learn==1.2.2
 streamlit==1.23.1
