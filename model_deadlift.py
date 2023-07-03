@@ -1,5 +1,4 @@
 import streamlit as st
-import mediapipe as mp
 import joblib
 
 
