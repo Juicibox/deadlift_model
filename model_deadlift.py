@@ -1,9 +1,6 @@
 import streamlit as st
-import cv2
 import mediapipe as mp
 import joblib
-import pandas as pd
-import numpy as np
 
 
 st.set_page_config(page_title="Peso Muerto", page_icon="💪")
