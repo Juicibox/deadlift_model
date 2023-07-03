@@ -5,6 +5,7 @@ opencv-python == 4.8.0.74
 pandas==2.0.2
 scikit-learn==1.2.2
 streamlit==1.23.1
+libgl1-mesa-glx
 
 
 
